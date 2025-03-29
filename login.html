@@ -6,7 +6,7 @@
 </head>
 <body>
     <h2>تسجيل الدخول</h2>
-    <form method="POST">
+    <form method="POST"  action= "sqlite:///users.db">
         <input type="email" name="email" placeholder="أدخل بريدك الإلكتروني" required>
         <button type="submit">إرسال رمز التحقق</button>
     </form>
